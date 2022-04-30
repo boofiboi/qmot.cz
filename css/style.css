@@ -36,6 +36,7 @@ h1{
 color: transparent;
 background-image:url("gradient.gif");
 background-size: 2000px;
+text-decoration-line: underline;
 }
 h2, h3{
     font-family: 'Oxygen Mono', monospace;
@@ -116,6 +117,16 @@ h3{
     width:auto;
     padding:20px;
     border-radius:100%;
+}
+
+.slejsapfp{
+    height:20vh;
+    width:auto;
+    padding:20px;
+    border-radius:100%;
+}
+h1{
+    text-decoration-line:underline;
 }
 .staff-list{
     display:flex;
