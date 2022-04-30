@@ -7,8 +7,10 @@
         <meta content="QmotCZE" property="og:title" />
         <meta content="CS:GO tým a přátelská komunita." property="og:description" />
         <meta content="https://qmot.cz" property="og:url" />
-        <meta content="https://qmot.cz/css/mogus.png" property="og:image" />
+        <meta content="https://qmot.cz/garousek.png" property="og:image" />
         <meta content="#6b768a" data-react-helmet="true" name="theme-color" />
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/pfp.js"></script>
     </head>
 <body>
 <div class="bg"></div>
@@ -17,15 +19,62 @@
 </div>
     <div class="text">
         <h1>QmotCZE
-            <p>Qmot je český CS:GO tým který je založen na přátelství a komunitě.</p>
+            <p>Qmot je český CS:GO tým <br> který je založen na <br> přátelství a komunitě.</p>
         </h1>
         <div class="logos">
             <a href="https://discord.qmot.cz">
                 <img class="osulogo"
                      src="https://www.svgrepo.com/show/333524/discord.svg">
             </a>
+            <a href="https://www.youtube.com/channel/UCvk8C2_vbeACIGgMJGhGM-Q">
+            <img class="ytlogo"
+                src="https://www.svgrepo.com/show/37530/youtube.svg">
+</a>
+            </a>
         </div>
 </div>
-<a class="autor" href="https://github.com/boofiboi">Autor: boofi</a>
+<div class="staff"">
+<div class="staff-text">
+    <h2 class="vedenitext">Hlavní vedení</h2>
+</div>
+<div class="staff-list">
+    <div class="staff-item">
+        <img class="arimpfp" src="https://cdn.discordapp.com/avatars/651928247537238046/154535e1ae6d3e8e0a0634b442260435.png?size=1024" alt="Arimova profilovka">
+
+    <h3>ArimCZEGOD#2989</h3>
+    <a class="arimsubtext">Majitel spolku</a>    
+    </div>
+    <div class="staff-item">
+        <img class="arimpfp" src="https://cdn.discordapp.com/avatars/591678718829789291/1ef0c8befb9f19c9ab76ecc10da7c1a9.png?size=1024" alt="Kubinzon profilovka">
+   <h3>Kubinzon#7858</h3>
+   <a class="arimsubtext">Majitel spolku</a>
+    </div>
+    <div class="staff-item">
+        <img class="arimpfp" src="garousek.png" alt="Gary profilovka">
+        <h3>Zdeno#4447</h3>
+        <a class="arimsubtext">Majitel spolku</a>
+    </div>
+    </div>
+    <div class="spolumajitele">
+    <div class="staff-item">
+          <img class="arimpfp" src="https://cdn.discordapp.com/avatars/767049454217199626/591a1d7f99ede84eccc80123c24b7635.png?size=1024" alt="Slejsič">
+        <h3>Slejsa &lt;3#7802</h3>
+        <a class="arimsubtext"> Spolumajitel spolku </a>
+    </div>
+    <div class="staff-item">
+        <img class="boofipfp" src="https://cdn.discordapp.com/avatars/784101881567379456/e5c033439b5ca4593d31a62d73a0a807.png?size=1024" alt="Slejsič">
+      <h3 class="trollec"">boofi#7340</h3>
+      <a class="boofisubtext">Technik spolku a manažer <br> webu</a>
+  </div>
+</div>
+</div>
+</div>
+<a class="autor" href="https://boofiboi.me">Autor: boofi</a>
 </body>
+<!--- wait for body load, then call function to load pfp -->
+<script>
+    $(document).ready(function () {
+        pfp();
+    });
+</script>
 </html>
