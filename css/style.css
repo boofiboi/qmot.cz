@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
+
+body{
+ background-color: #6b768a
+}
+
+.bg{
+    background-image: url("mogus.png");
+    height:100%;
+    width:100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    filter:blur(20px)
+    
+}
+
+.text{
+    background-color:white;
+    width:30vw;
+    position:absolute;
+    top:30vh;
+    left:65vw;
+    margin-right:10px;
+    text-align:center;
+    padding:1px;
+    border-radius:20px;
+    box-shadow:0px 0px 30px black;;
+
+}
+h1{
+    font-family: 'Oxygen Mono', monospace;
+    margin:5px;
+}
+.logoimg{
+    margin-left: 2rem;
+    width: 287px;
+    position:absolute;
+    top:30vh;
+    padding: 1px;
+    background-color: white;
+    border-radius: 20px;
+    text-align:center;
+    align-content: center;
+    justify-content:center;
+    align-items: center;
+
+}.logos {
+    display: flex;
+    margin-top: -35px;
+    justify-content: center;
+    flex-direction:row-reverse;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+
+.gitlogo {
+    object-fit: fill;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.osulogo{
+    width:40px;
+    height:40px;
+    object-fit:fill;
+}
+
+.autor{
+    font-family: 'Share Tech Mono', monospace;
+    position:absolute;
+    top:97vh;
+    left:93vw;
+    text-decoration:none;
+    color:black;;
+}
