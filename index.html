@@ -13,14 +13,12 @@
         <script type="text/javascript" src="js/pfp.js"></script>
     </head>
 <body>
-<div class="bg"></div>
-    <div class="logo">
-    <img src="css/mogus.png" alt="logo" class="logoimg">
+<div class="bg">
 </div>
-    <div class="text">
-        <h1 class="qmot">QmotCZE
-            <p>Qmot je český CS:GO tým <br> který je založen na <br> přátelství a komunitě.</p>
-        </h1>
+    <img src="css/mogus.png" alt="logo" class="logoimg">
+<div class="text">
+        <h1 class="qmot">QmotCZE</h1>
+        <h2 class="qmottext">Qmot je komunita <br> která je založena na <br> přátelství a komunitě.</h2>
         <div class="logos">
             <a href="https://discord.qmot.cz">
                 <img class="osulogo"
@@ -33,7 +31,7 @@
             </a>
         </div>
 </div>
-<div class="staff"">
+<div class="staff">
 <div class="staff-text">
     <h2 class="vedenitext">Hlavní vedení</h2>
 </div>
@@ -50,9 +48,9 @@
    <a class="arimsubtext">Majitel spolku</a>
     </div>
     <div class="staff-item">
-        <img class="arimpfp" src="garousek.png" alt="Gary profilovka">
+        <img class="arimpfp garykokot" src="garousek.png" alt="Gary profilovka">
         <h3>Zdeno#4447</h3>
-        <a class="arimsubtext">Majitel spolku</a>
+        <a class="arimsubtext garykokot">Majitel spolku a rasově <br> motivovaný člověk.</a>
     </div>
     </div>
     <div class="spolumajitele">
@@ -64,14 +62,31 @@
     <div class="staff-item">
         <img class="boofipfp" src="https://cdn.discordapp.com/avatars/784101881567379456/e5c033439b5ca4593d31a62d73a0a807.png?size=1024" alt="Slejsič">
       <h3 class="trollec"">boofi#7340</h3>
-      <a class="boofisubtext">Technik spolku a manažer <br> webu</a>
+      <a class="boofisubtext">Technik spolku a manažer <br> všeho</a>
   </div>
 </div>
 </div>
 </div>
-<a class="autor" href="https://boofiboi.me">Autor: boofi</a>
+
+
+<div class="servery">
+  <h2>Naše herní servery</h2>
+</div>
+
+  <div class="servery-list">
+      <div class="servery-item csgo">
+          <h2> CS:GO </h2>
+          <a class="mcsubtext" href="steam://connect/5.76.81.234:27105">45.76.81.234:27105 <br></a>
+          <a class="mcsubtext">Server jede na 128 tick</a>
+      </div>
+        <div class="servery-item">
+      <h2> Minecraft</h2>
+      <a class="mcsubtext">mc.qmot.cz <br> Server je plně nastaven a <br> zabezpečen proti griefingu</a>
+        </div>
+</div>
+<a class="autor" href="https://boofiboi.me">Made by: boofi</a>
+
 </body>
-<!--- wait for body load, then call function to load pfp -->
 <script>
     $(document).ready(function () {
         pfp();
