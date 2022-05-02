@@ -19,7 +19,7 @@ body {
 @media screen and (max-width: 550px) {
     .text {
         position: absolute;
-        top: 50vh;
+        top: 54vh;
         background: #cfcfcf;
         width: 70vw;
         left: 20vw;
@@ -28,19 +28,18 @@ body {
         padding: 1px;
         border-radius: 20px;
         box-shadow: 0px 0px 30px black;
-
         z-index: 3;
     }
 
     .logoimg {
-        left: 20vw;
+        left: 13vw;
     }
 
     .logoimg {
         animation: infinite linear 5s amogus;
         width: 300px;
         position: absolute;
-        top: 10vh;
+        top: 3vh;
         padding: 1px;
         background-color: #cfcfcf;
         border-radius: 20px;
@@ -170,7 +169,6 @@ h1 {
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
-
  .hernitext{
         padding:10px;
     }
