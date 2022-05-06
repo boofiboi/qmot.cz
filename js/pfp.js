@@ -10,11 +10,13 @@ function httpGet(theUrl)
 
 // noinspection JSUnresolvedFunction
 let pfp = function(){
-    let mogus = httpGet("https://discordid.eu/api?key=did_BGE2SMMVa5M73qTLHB2FIXGuARgMPJI5niwmemGSoZsQeMCcNZyl4iAdlNqz&id=784101881567379456");
-    let jsonParsed = JSON.parse(mogus);
-    $("img.boofipfp").attr("src", jsonParsed.avatar);
-    $("#trollec").text(jsonParsed.usernamewtag);
-
+    let boofipfp = httpGet("https://discordid.eu/api?key=did_BGE2SMMVa5M73qTLHB2FIXGuARgMPJI5niwmemGSoZsQeMCcNZyl4iAdlNqz&id=784101881567379456");
+    let boofiParsed = JSON.parse(boofipfp);
+    $("img.boofipfp").attr("src", boofiParsed.avatar);
+    $("#trollec").text(boofiParsed.usernamewtag);
+    let kubapfp = httpGet("https://discordid.eu/api?key=did_BGE2SMMVa5M73qTLHB2FIXGuARgMPJI5niwmemGSoZsQeMCcNZyl4iAdlNqz&id=591678718829789291");
+        let kubaparsed = JSON.parse(kubapfp);
+        $("img.arimpfp.kubik").attr("src", kubaparsed.avatar);
     var randomnum = Math.floor(Math.random() * 5);
     let slejsa = function(){   
         console.log(randomnum)
@@ -42,4 +44,6 @@ break;
         }   
     }
     slejsa();
+
+
 }
